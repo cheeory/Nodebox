@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ndbx formatVersion="21" type="file" uuid="27f73d97-a16e-40fd-aaa6-ee4d9ffa6d52">
+    <property name="canvasHeight" value="1000"/>
+    <property name="canvasWidth" value="1000"/>
+    <property name="canvasX" value="0"/>
+    <property name="canvasY" value="0"/>
+    <node name="root" prototype="core.network" renderedChild="translate1">
+        <node name="bookshelf1" position="2.00,9.00" prototype="core.network" renderedChild="combine1">
+            <node name="book1" position="15.00,-1.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize10" position="18.00,3.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d4a4ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize3" position="15.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#d7903dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize7" position="15.00,3.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d4a4ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize8" position="18.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#d7903dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="15.00,5.00" prototype="list.combine"/>
+                <node name="ellipse1" position="18.00,-1.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="43.00,0.00"/>
+                    <port name="width" type="float" value="40.0"/>
+                    <port name="height" type="float" value="40.0"/>
+                </node>
+                <node name="ellipse2" position="18.00,2.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="43.00,0.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="30.0"/>
+                </node>
+                <node name="rect3" position="15.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="131.00,0.00"/>
+                    <port name="width" type="float" value="180.0"/>
+                    <port name="height" type="float" value="40.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect7" position="15.00,2.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="131.00,0.00"/>
+                    <port name="width" type="float" value="180.0"/>
+                    <port name="height" type="float" value="30.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <conn input="colorize3.shape" output="rect3"/>
+                <conn input="combine2.list1" output="colorize3"/>
+                <conn input="colorize8.shape" output="ellipse1"/>
+                <conn input="combine2.list2" output="colorize8"/>
+                <conn input="colorize7.shape" output="rect7"/>
+                <conn input="combine2.list3" output="colorize7"/>
+                <conn input="colorize10.shape" output="ellipse2"/>
+                <conn input="combine2.list4" output="colorize10"/>
+            </node>
+            <node name="book2" position="18.00,-1.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize10" position="18.00,3.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d4a4ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize3" position="15.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#7f903dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize7" position="15.00,3.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d4a4ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize8" position="18.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#7f903dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="15.00,5.00" prototype="list.combine"/>
+                <node name="ellipse1" position="18.00,-1.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="43.00,0.00"/>
+                    <port name="width" type="float" value="40.0"/>
+                    <port name="height" type="float" value="40.0"/>
+                </node>
+                <node name="ellipse2" position="18.00,2.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="43.00,0.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="30.0"/>
+                </node>
+                <node name="rect3" position="15.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="131.00,0.00"/>
+                    <port name="width" type="float" value="180.0"/>
+                    <port name="height" type="float" value="40.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect7" position="15.00,2.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="131.00,0.00"/>
+                    <port name="width" type="float" value="180.0"/>
+                    <port name="height" type="float" value="30.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <conn input="colorize3.shape" output="rect3"/>
+                <conn input="combine2.list1" output="colorize3"/>
+                <conn input="colorize8.shape" output="ellipse1"/>
+                <conn input="combine2.list2" output="colorize8"/>
+                <conn input="colorize7.shape" output="rect7"/>
+                <conn input="combine2.list3" output="colorize7"/>
+                <conn input="colorize10.shape" output="ellipse2"/>
+                <conn input="combine2.list4" output="colorize10"/>
+            </node>
+            <node name="book3" position="22.00,1.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize10" position="18.00,3.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d4a4ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize3" position="15.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#8c7db4ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize7" position="15.00,3.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d4a4ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize8" position="18.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#8c7cb4ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="15.00,5.00" prototype="list.combine"/>
+                <node name="ellipse1" position="18.00,-1.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="43.00,0.00"/>
+                    <port name="width" type="float" value="40.0"/>
+                    <port name="height" type="float" value="40.0"/>
+                </node>
+                <node name="ellipse2" position="18.00,2.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="43.00,0.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="30.0"/>
+                </node>
+                <node name="rect3" position="15.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="131.00,0.00"/>
+                    <port name="width" type="float" value="180.0"/>
+                    <port name="height" type="float" value="40.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect7" position="15.00,2.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="131.00,0.00"/>
+                    <port name="width" type="float" value="180.0"/>
+                    <port name="height" type="float" value="30.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <conn input="colorize3.shape" output="rect3"/>
+                <conn input="combine2.list1" output="colorize3"/>
+                <conn input="colorize8.shape" output="ellipse1"/>
+                <conn input="combine2.list2" output="colorize8"/>
+                <conn input="colorize7.shape" output="rect7"/>
+                <conn input="combine2.list3" output="colorize7"/>
+                <conn input="colorize10.shape" output="ellipse2"/>
+                <conn input="combine2.list4" output="colorize10"/>
+            </node>
+            <node name="colorize1" position="-3.00,1.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#522d28ff"/>
+                <port name="stroke" type="color" value="#874e2dff"/>
+                <port name="strokeWidth" type="float" value="15.0"/>
+            </node>
+            <node name="combine1" position="-2.00,8.00" prototype="list.combine"/>
+            <node name="combine2" position="9.00,5.00" prototype="list.combine"/>
+            <node name="network1" position="11.00,-1.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize3" position="11.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d7a6ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize4" position="14.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#bf3834ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize5" position="17.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#bf3834ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize6" position="23.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#bf3834ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize7" position="20.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#bf3834ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize8" position="16.00,1.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#bf3834ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize9" position="19.00,1.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#bf3834ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="12.00,3.00" prototype="list.combine"/>
+                <node name="ellipse1" position="19.00,0.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="-13.00,22.00"/>
+                    <port name="width" type="float" value="50.0"/>
+                    <port name="height" type="float" value="64.0"/>
+                </node>
+                <node name="rect3" position="11.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,16.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="183.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect4" position="14.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,-56.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect5" position="17.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,-50.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect6" position="23.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,84.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect7" position="20.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,90.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect8" position="16.00,0.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,-25.00"/>
+                    <port name="width" type="float" value="60.0"/>
+                    <port name="height" type="float" value="8.0"/>
+                </node>
+                <conn input="colorize3.shape" output="rect3"/>
+                <conn input="colorize4.shape" output="rect4"/>
+                <conn input="combine2.list1" output="colorize3"/>
+                <conn input="combine2.list2" output="colorize4"/>
+                <conn input="colorize5.shape" output="rect5"/>
+                <conn input="combine2.list3" output="colorize5"/>
+                <conn input="colorize7.shape" output="rect7"/>
+                <conn input="colorize6.shape" output="rect6"/>
+                <conn input="combine2.list4" output="colorize7"/>
+                <conn input="combine2.list5" output="colorize6"/>
+                <conn input="colorize8.shape" output="rect8"/>
+                <conn input="combine2.list6" output="colorize8"/>
+                <conn input="colorize9.shape" output="ellipse1"/>
+                <conn input="combine2.list7" output="colorize9"/>
+            </node>
+            <node name="rect1" position="-3.00,-1.00" prototype="corevector.rect">
+                <port name="width" type="float" value="500.0"/>
+                <port name="height" type="float" value="250.0"/>
+            </node>
+            <node name="redbook" position="1.00,-1.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize2" position="0.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#bd3e39ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize4" position="0.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize5" position="3.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize6" position="3.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="0.00,2.00" prototype="list.combine"/>
+                <node name="rect2" position="0.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,0.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="220.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect4" position="0.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,-87.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="5.0"/>
+                </node>
+                <node name="rect5" position="3.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,-65.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="26.0"/>
+                </node>
+                <node name="rect6" position="3.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,90.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="5.0"/>
+                </node>
+                <conn input="colorize2.shape" output="rect2"/>
+                <conn input="colorize4.shape" output="rect4"/>
+                <conn input="combine2.list2" output="colorize4"/>
+                <conn input="combine2.list1" output="colorize2"/>
+                <conn input="colorize5.shape" output="rect5"/>
+                <conn input="combine2.list3" output="colorize5"/>
+                <conn input="colorize6.shape" output="rect6"/>
+                <conn input="combine2.list4" output="colorize6"/>
+            </node>
+            <node name="redbook1" position="4.00,-1.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize2" position="0.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#bd3e39ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize4" position="0.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize5" position="3.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize6" position="3.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="0.00,2.00" prototype="list.combine"/>
+                <node name="rect2" position="0.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,0.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="220.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect4" position="0.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,-87.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="5.0"/>
+                </node>
+                <node name="rect5" position="3.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,-65.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="26.0"/>
+                </node>
+                <node name="rect6" position="3.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,90.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="5.0"/>
+                </node>
+                <conn input="colorize2.shape" output="rect2"/>
+                <conn input="colorize4.shape" output="rect4"/>
+                <conn input="combine2.list2" output="colorize4"/>
+                <conn input="combine2.list1" output="colorize2"/>
+                <conn input="colorize5.shape" output="rect5"/>
+                <conn input="combine2.list3" output="colorize5"/>
+                <conn input="colorize6.shape" output="rect6"/>
+                <conn input="combine2.list4" output="colorize6"/>
+            </node>
+            <node name="redbook2" position="7.00,-1.00" prototype="core.network" renderedChild="rotate1">
+                <node name="colorize2" position="0.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#316d55ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize4" position="0.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize5" position="3.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize6" position="3.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize7" position="7.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="0.00,2.00" prototype="list.combine"/>
+                <node name="ellipse1" position="7.00,-1.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="-212.00,-1.00"/>
+                    <port name="width" type="float" value="18.0"/>
+                    <port name="height" type="float" value="74.0"/>
+                </node>
+                <node name="rect2" position="0.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,0.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="220.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect4" position="0.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,-87.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="5.0"/>
+                </node>
+                <node name="rect5" position="3.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,-65.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="26.0"/>
+                </node>
+                <node name="rect6" position="3.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,90.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="5.0"/>
+                </node>
+                <node name="rotate1" position="0.00,4.00" prototype="corevector.rotate">
+                    <port name="angle" type="float" value="19.0"/>
+                </node>
+                <conn input="colorize2.shape" output="rect2"/>
+                <conn input="colorize4.shape" output="rect4"/>
+                <conn input="combine2.list2" output="colorize4"/>
+                <conn input="combine2.list1" output="colorize2"/>
+                <conn input="colorize5.shape" output="rect5"/>
+                <conn input="combine2.list3" output="colorize5"/>
+                <conn input="colorize6.shape" output="rect6"/>
+                <conn input="combine2.list4" output="colorize6"/>
+                <conn input="rotate1.shape" output="combine2"/>
+                <conn input="colorize7.shape" output="ellipse1"/>
+                <conn input="combine2.list5" output="colorize7"/>
+            </node>
+            <node name="reflect1" position="18.00,0.00" prototype="corevector.reflect">
+                <port name="position" type="point" value="122.00,0.00"/>
+                <port name="angle" type="float" value="90.0"/>
+                <port name="keep_original" type="boolean" value="false"/>
+            </node>
+            <node name="rotate1" position="22.00,2.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="29.0"/>
+            </node>
+            <node name="translate1" position="1.00,0.00" prototype="corevector.translate"/>
+            <node name="translate2" position="4.00,0.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="37.00,0.00"/>
+            </node>
+            <node name="translate3" position="7.00,0.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="98.00,71.00"/>
+            </node>
+            <node name="translate4" position="15.00,0.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="11.00,86.00"/>
+            </node>
+            <node name="translate5" position="18.00,1.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="11.00,47.00"/>
+            </node>
+            <node name="translate6" position="22.00,3.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="11.00,-99.00"/>
+            </node>
+            <conn input="colorize1.shape" output="rect1"/>
+            <conn input="combine1.list1" output="colorize1"/>
+            <conn input="translate1.shape" output="redbook"/>
+            <conn input="combine1.list2" output="translate1"/>
+            <conn input="translate2.shape" output="redbook1"/>
+            <conn input="combine1.list3" output="translate2"/>
+            <conn input="combine1.list4" output="translate3"/>
+            <conn input="translate3.shape" output="redbook2"/>
+            <conn input="combine1.list5" output="network1"/>
+            <conn input="translate4.shape" output="book1"/>
+            <conn input="combine2.list1" output="translate4"/>
+            <conn input="combine2.list2" output="translate5"/>
+            <conn input="combine1.list6" output="combine2"/>
+            <conn input="reflect1.shape" output="book2"/>
+            <conn input="translate5.shape" output="reflect1"/>
+            <conn input="rotate1.shape" output="book3"/>
+            <conn input="translate6.shape" output="rotate1"/>
+            <conn input="combine2.list3" output="translate6"/>
+        </node>
+        <node name="bookshelf2" position="6.00,9.00" prototype="core.network" renderedChild="combine1">
+            <node name="book1" position="15.00,-1.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize10" position="18.00,3.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d4a4ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize3" position="15.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#d7903dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize7" position="15.00,3.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d4a4ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize8" position="18.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#d7903dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="15.00,5.00" prototype="list.combine"/>
+                <node name="ellipse1" position="18.00,-1.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="43.00,0.00"/>
+                    <port name="width" type="float" value="40.0"/>
+                    <port name="height" type="float" value="40.0"/>
+                </node>
+                <node name="ellipse2" position="18.00,2.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="43.00,0.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="30.0"/>
+                </node>
+                <node name="rect3" position="15.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="131.00,0.00"/>
+                    <port name="width" type="float" value="180.0"/>
+                    <port name="height" type="float" value="40.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect7" position="15.00,2.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="131.00,0.00"/>
+                    <port name="width" type="float" value="180.0"/>
+                    <port name="height" type="float" value="30.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <conn input="colorize3.shape" output="rect3"/>
+                <conn input="combine2.list1" output="colorize3"/>
+                <conn input="colorize8.shape" output="ellipse1"/>
+                <conn input="combine2.list2" output="colorize8"/>
+                <conn input="colorize7.shape" output="rect7"/>
+                <conn input="combine2.list3" output="colorize7"/>
+                <conn input="colorize10.shape" output="ellipse2"/>
+                <conn input="combine2.list4" output="colorize10"/>
+            </node>
+            <node name="book2" position="18.00,-1.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize10" position="18.00,3.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d4a4ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize3" position="15.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#7f903dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize7" position="15.00,3.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d4a4ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize8" position="18.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#7f903dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="15.00,5.00" prototype="list.combine"/>
+                <node name="ellipse1" position="18.00,-1.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="43.00,0.00"/>
+                    <port name="width" type="float" value="40.0"/>
+                    <port name="height" type="float" value="40.0"/>
+                </node>
+                <node name="ellipse2" position="18.00,2.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="43.00,0.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="30.0"/>
+                </node>
+                <node name="rect3" position="15.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="131.00,0.00"/>
+                    <port name="width" type="float" value="180.0"/>
+                    <port name="height" type="float" value="40.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect7" position="15.00,2.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="131.00,0.00"/>
+                    <port name="width" type="float" value="180.0"/>
+                    <port name="height" type="float" value="30.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <conn input="colorize3.shape" output="rect3"/>
+                <conn input="combine2.list1" output="colorize3"/>
+                <conn input="colorize8.shape" output="ellipse1"/>
+                <conn input="combine2.list2" output="colorize8"/>
+                <conn input="colorize7.shape" output="rect7"/>
+                <conn input="combine2.list3" output="colorize7"/>
+                <conn input="colorize10.shape" output="ellipse2"/>
+                <conn input="combine2.list4" output="colorize10"/>
+            </node>
+            <node name="colorize1" position="-3.00,1.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#522d28ff"/>
+                <port name="stroke" type="color" value="#874e2dff"/>
+                <port name="strokeWidth" type="float" value="15.0"/>
+            </node>
+            <node name="combine1" position="-2.00,10.00" prototype="list.combine"/>
+            <node name="combine2" position="9.00,5.00" prototype="list.combine"/>
+            <node name="network1" position="11.00,-1.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize10" position="14.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d7a6ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize11" position="17.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d7a6ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize12" position="20.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d7a6ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize13" position="23.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d7a6ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize14" position="16.00,1.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d7a6ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize15" position="19.00,1.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d7a6ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize3" position="11.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#496f7eff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="12.00,3.00" prototype="list.combine"/>
+                <node name="ellipse1" position="19.00,0.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="-13.00,22.00"/>
+                    <port name="width" type="float" value="50.0"/>
+                    <port name="height" type="float" value="64.0"/>
+                </node>
+                <node name="rect3" position="11.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,16.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="183.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect4" position="14.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,-56.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect5" position="17.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,-50.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect6" position="23.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,84.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect7" position="20.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,90.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect8" position="16.00,0.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,-25.00"/>
+                    <port name="width" type="float" value="60.0"/>
+                    <port name="height" type="float" value="8.0"/>
+                </node>
+                <conn input="combine2.list1" output="colorize3"/>
+                <conn input="colorize3.shape" output="rect3"/>
+                <conn input="colorize10.shape" output="rect4"/>
+                <conn input="combine2.list2" output="colorize10"/>
+                <conn input="colorize11.shape" output="rect5"/>
+                <conn input="colorize12.shape" output="rect7"/>
+                <conn input="colorize13.shape" output="rect6"/>
+                <conn input="combine2.list3" output="colorize11"/>
+                <conn input="combine2.list4" output="colorize12"/>
+                <conn input="combine2.list5" output="colorize13"/>
+                <conn input="colorize14.shape" output="rect8"/>
+                <conn input="colorize15.shape" output="ellipse1"/>
+                <conn input="combine2.list6" output="colorize14"/>
+                <conn input="combine2.list7" output="colorize15"/>
+            </node>
+            <node name="rect1" position="-3.00,-1.00" prototype="corevector.rect">
+                <port name="width" type="float" value="500.0"/>
+                <port name="height" type="float" value="250.0"/>
+            </node>
+            <node name="redbook" position="1.00,-1.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize2" position="0.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#bd3e39ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize4" position="0.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize5" position="3.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize6" position="3.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="0.00,2.00" prototype="list.combine"/>
+                <node name="rect2" position="0.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,0.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="220.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect4" position="0.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,-87.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="5.0"/>
+                </node>
+                <node name="rect5" position="3.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,-65.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="26.0"/>
+                </node>
+                <node name="rect6" position="3.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,90.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="5.0"/>
+                </node>
+                <conn input="colorize2.shape" output="rect2"/>
+                <conn input="colorize4.shape" output="rect4"/>
+                <conn input="combine2.list2" output="colorize4"/>
+                <conn input="combine2.list1" output="colorize2"/>
+                <conn input="colorize5.shape" output="rect5"/>
+                <conn input="combine2.list3" output="colorize5"/>
+                <conn input="colorize6.shape" output="rect6"/>
+                <conn input="combine2.list4" output="colorize6"/>
+            </node>
+            <node name="redbook1" position="4.00,-1.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize2" position="0.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#bd3e39ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize4" position="0.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize5" position="3.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize6" position="3.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="0.00,2.00" prototype="list.combine"/>
+                <node name="rect2" position="0.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,0.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="220.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect4" position="0.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,-87.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="5.0"/>
+                </node>
+                <node name="rect5" position="3.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,-65.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="26.0"/>
+                </node>
+                <node name="rect6" position="3.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,90.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="5.0"/>
+                </node>
+                <conn input="colorize2.shape" output="rect2"/>
+                <conn input="colorize4.shape" output="rect4"/>
+                <conn input="combine2.list2" output="colorize4"/>
+                <conn input="combine2.list1" output="colorize2"/>
+                <conn input="colorize5.shape" output="rect5"/>
+                <conn input="combine2.list3" output="colorize5"/>
+                <conn input="colorize6.shape" output="rect6"/>
+                <conn input="combine2.list4" output="colorize6"/>
+            </node>
+            <node name="redbook2" position="7.00,-1.00" prototype="core.network" renderedChild="rotate1">
+                <node name="colorize2" position="0.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#316d55ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize4" position="0.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize5" position="3.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize6" position="3.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize7" position="7.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="0.00,2.00" prototype="list.combine"/>
+                <node name="ellipse1" position="7.00,-1.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="-212.00,-1.00"/>
+                    <port name="width" type="float" value="18.0"/>
+                    <port name="height" type="float" value="74.0"/>
+                </node>
+                <node name="rect2" position="0.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,0.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="220.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect4" position="0.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,-87.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="5.0"/>
+                </node>
+                <node name="rect5" position="3.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,-65.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="26.0"/>
+                </node>
+                <node name="rect6" position="3.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,90.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="5.0"/>
+                </node>
+                <node name="rotate1" position="0.00,4.00" prototype="corevector.rotate">
+                    <port name="angle" type="float" value="19.0"/>
+                </node>
+                <conn input="colorize2.shape" output="rect2"/>
+                <conn input="colorize4.shape" output="rect4"/>
+                <conn input="combine2.list2" output="colorize4"/>
+                <conn input="combine2.list1" output="colorize2"/>
+                <conn input="colorize5.shape" output="rect5"/>
+                <conn input="combine2.list3" output="colorize5"/>
+                <conn input="colorize6.shape" output="rect6"/>
+                <conn input="combine2.list4" output="colorize6"/>
+                <conn input="rotate1.shape" output="combine2"/>
+                <conn input="colorize7.shape" output="ellipse1"/>
+                <conn input="combine2.list5" output="colorize7"/>
+            </node>
+            <node name="reflect1" position="18.00,0.00" prototype="corevector.reflect">
+                <port name="position" type="point" value="122.00,0.00"/>
+                <port name="angle" type="float" value="90.0"/>
+                <port name="keep_original" type="boolean" value="false"/>
+            </node>
+            <node name="translate1" position="1.00,0.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="386.00,0.00"/>
+            </node>
+            <node name="translate2" position="4.00,0.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="422.00,0.00"/>
+            </node>
+            <node name="translate3" position="7.00,0.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="308.00,71.00"/>
+            </node>
+            <node name="translate4" position="15.00,0.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="11.00,86.00"/>
+            </node>
+            <node name="translate5" position="18.00,1.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="11.00,47.00"/>
+            </node>
+            <node name="translate6" position="9.00,7.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-177.00,2.00"/>
+            </node>
+            <node name="translate7" position="11.00,0.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-175.00,0.00"/>
+            </node>
+            <conn input="colorize1.shape" output="rect1"/>
+            <conn input="combine1.list1" output="colorize1"/>
+            <conn input="translate1.shape" output="redbook"/>
+            <conn input="combine1.list2" output="translate1"/>
+            <conn input="translate2.shape" output="redbook1"/>
+            <conn input="combine1.list3" output="translate2"/>
+            <conn input="combine1.list4" output="translate3"/>
+            <conn input="translate3.shape" output="redbook2"/>
+            <conn input="translate4.shape" output="book1"/>
+            <conn input="combine2.list1" output="translate4"/>
+            <conn input="combine2.list2" output="translate5"/>
+            <conn input="reflect1.shape" output="book2"/>
+            <conn input="translate5.shape" output="reflect1"/>
+            <conn input="translate6.shape" output="combine2"/>
+            <conn input="combine1.list6" output="translate6"/>
+            <conn input="translate7.shape" output="network1"/>
+            <conn input="combine1.list5" output="translate7"/>
+        </node>
+        <node name="bookshelf3" position="10.00,9.00" prototype="core.network" renderedChild="combine1">
+            <node name="book3" position="14.00,5.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize10" position="18.00,3.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d4a4ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize3" position="15.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#b4a07dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize7" position="15.00,3.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d4a4ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize8" position="18.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#b4a07cff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="15.00,5.00" prototype="list.combine"/>
+                <node name="ellipse1" position="18.00,-1.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="43.00,0.00"/>
+                    <port name="width" type="float" value="40.0"/>
+                    <port name="height" type="float" value="40.0"/>
+                </node>
+                <node name="ellipse2" position="18.00,2.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="43.00,0.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="30.0"/>
+                </node>
+                <node name="rect3" position="15.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="131.00,0.00"/>
+                    <port name="width" type="float" value="180.0"/>
+                    <port name="height" type="float" value="40.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect7" position="15.00,2.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="131.00,0.00"/>
+                    <port name="width" type="float" value="180.0"/>
+                    <port name="height" type="float" value="30.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <conn input="colorize3.shape" output="rect3"/>
+                <conn input="combine2.list1" output="colorize3"/>
+                <conn input="colorize8.shape" output="ellipse1"/>
+                <conn input="combine2.list2" output="colorize8"/>
+                <conn input="colorize7.shape" output="rect7"/>
+                <conn input="combine2.list3" output="colorize7"/>
+                <conn input="colorize10.shape" output="ellipse2"/>
+                <conn input="combine2.list4" output="colorize10"/>
+            </node>
+            <node name="book4" position="17.00,5.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize10" position="18.00,3.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d4a4ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize3" position="15.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#717ca9ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize7" position="15.00,3.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d4a4ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize8" position="18.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#717ca9ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="15.00,5.00" prototype="list.combine"/>
+                <node name="ellipse1" position="18.00,-1.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="43.00,0.00"/>
+                    <port name="width" type="float" value="40.0"/>
+                    <port name="height" type="float" value="40.0"/>
+                </node>
+                <node name="ellipse2" position="18.00,2.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="43.00,0.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="30.0"/>
+                </node>
+                <node name="rect3" position="15.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="131.00,0.00"/>
+                    <port name="width" type="float" value="180.0"/>
+                    <port name="height" type="float" value="40.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect7" position="15.00,2.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="131.00,0.00"/>
+                    <port name="width" type="float" value="180.0"/>
+                    <port name="height" type="float" value="30.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <conn input="colorize3.shape" output="rect3"/>
+                <conn input="combine2.list1" output="colorize3"/>
+                <conn input="colorize8.shape" output="ellipse1"/>
+                <conn input="combine2.list2" output="colorize8"/>
+                <conn input="colorize7.shape" output="rect7"/>
+                <conn input="combine2.list3" output="colorize7"/>
+                <conn input="colorize10.shape" output="ellipse2"/>
+                <conn input="combine2.list4" output="colorize10"/>
+            </node>
+            <node name="colorize1" position="-3.00,1.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#522d28ff"/>
+                <port name="stroke" type="color" value="#874e2dff"/>
+                <port name="strokeWidth" type="float" value="15.0"/>
+            </node>
+            <node name="combine1" position="0.00,12.00" prototype="list.combine"/>
+            <node name="combine2" position="14.00,9.00" prototype="list.combine"/>
+            <node name="network1" position="11.00,-1.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize10" position="17.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#31406dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize11" position="20.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#31406dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize12" position="23.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#31406dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize2" position="19.00,1.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#31406dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize3" position="11.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8a6a6ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize8" position="16.00,1.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#31406dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize9" position="14.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#31406dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="12.00,3.00" prototype="list.combine"/>
+                <node name="ellipse1" position="19.00,0.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="-13.00,22.00"/>
+                    <port name="width" type="float" value="50.0"/>
+                    <port name="height" type="float" value="64.0"/>
+                </node>
+                <node name="rect3" position="11.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,16.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="183.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect4" position="14.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,-56.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect5" position="17.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,-50.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect6" position="23.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,84.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect7" position="20.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,90.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect8" position="16.00,0.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,-25.00"/>
+                    <port name="width" type="float" value="60.0"/>
+                    <port name="height" type="float" value="8.0"/>
+                </node>
+                <conn input="colorize3.shape" output="rect3"/>
+                <conn input="combine2.list1" output="colorize3"/>
+                <conn input="colorize2.shape" output="ellipse1"/>
+                <conn input="combine2.list7" output="colorize2"/>
+                <conn input="colorize8.shape" output="rect8"/>
+                <conn input="combine2.list6" output="colorize8"/>
+                <conn input="colorize9.shape" output="rect4"/>
+                <conn input="colorize10.shape" output="rect5"/>
+                <conn input="colorize11.shape" output="rect7"/>
+                <conn input="colorize12.shape" output="rect6"/>
+                <conn input="combine2.list5" output="colorize12"/>
+                <conn input="combine2.list4" output="colorize11"/>
+                <conn input="combine2.list3" output="colorize10"/>
+                <conn input="combine2.list2" output="colorize9"/>
+            </node>
+            <node name="network2" position="14.00,-1.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize3" position="11.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8d7a6ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize4" position="14.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#bf3834ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize5" position="17.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#bf3834ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize6" position="23.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#bf3834ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize7" position="20.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#bf3834ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize8" position="16.00,1.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#bf3834ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize9" position="19.00,1.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#bf3834ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="12.00,3.00" prototype="list.combine"/>
+                <node name="ellipse1" position="19.00,0.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="-13.00,22.00"/>
+                    <port name="width" type="float" value="50.0"/>
+                    <port name="height" type="float" value="64.0"/>
+                </node>
+                <node name="rect3" position="11.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,16.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="183.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect4" position="14.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,-56.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect5" position="17.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,-50.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect6" position="23.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,84.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect7" position="20.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,90.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect8" position="16.00,0.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,-25.00"/>
+                    <port name="width" type="float" value="60.0"/>
+                    <port name="height" type="float" value="8.0"/>
+                </node>
+                <conn input="colorize3.shape" output="rect3"/>
+                <conn input="colorize4.shape" output="rect4"/>
+                <conn input="combine2.list1" output="colorize3"/>
+                <conn input="combine2.list2" output="colorize4"/>
+                <conn input="colorize5.shape" output="rect5"/>
+                <conn input="combine2.list3" output="colorize5"/>
+                <conn input="colorize7.shape" output="rect7"/>
+                <conn input="colorize6.shape" output="rect6"/>
+                <conn input="combine2.list4" output="colorize7"/>
+                <conn input="combine2.list5" output="colorize6"/>
+                <conn input="colorize8.shape" output="rect8"/>
+                <conn input="combine2.list6" output="colorize8"/>
+                <conn input="colorize9.shape" output="ellipse1"/>
+                <conn input="combine2.list7" output="colorize9"/>
+            </node>
+            <node name="network3" position="15.00,2.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize10" position="17.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#31406dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize11" position="20.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#31406dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize12" position="23.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#31406dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize2" position="19.00,1.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#31406dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize3" position="11.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e8a6a6ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize8" position="16.00,1.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#31406dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize9" position="14.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#31406dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="12.00,3.00" prototype="list.combine"/>
+                <node name="ellipse1" position="19.00,0.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="-13.00,22.00"/>
+                    <port name="width" type="float" value="50.0"/>
+                    <port name="height" type="float" value="64.0"/>
+                </node>
+                <node name="rect3" position="11.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,16.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="183.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect4" position="14.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,-56.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect5" position="17.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,-50.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect6" position="23.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,84.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect7" position="20.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,90.00"/>
+                    <port name="width" type="float" value="80.0"/>
+                    <port name="height" type="float" value="3.0"/>
+                </node>
+                <node name="rect8" position="16.00,0.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-13.00,-25.00"/>
+                    <port name="width" type="float" value="60.0"/>
+                    <port name="height" type="float" value="8.0"/>
+                </node>
+                <conn input="colorize3.shape" output="rect3"/>
+                <conn input="combine2.list1" output="colorize3"/>
+                <conn input="colorize2.shape" output="ellipse1"/>
+                <conn input="combine2.list7" output="colorize2"/>
+                <conn input="colorize8.shape" output="rect8"/>
+                <conn input="combine2.list6" output="colorize8"/>
+                <conn input="colorize9.shape" output="rect4"/>
+                <conn input="colorize10.shape" output="rect5"/>
+                <conn input="colorize11.shape" output="rect7"/>
+                <conn input="colorize12.shape" output="rect6"/>
+                <conn input="combine2.list5" output="colorize12"/>
+                <conn input="combine2.list4" output="colorize11"/>
+                <conn input="combine2.list3" output="colorize10"/>
+                <conn input="combine2.list2" output="colorize9"/>
+            </node>
+            <node name="rect1" position="-3.00,-1.00" prototype="corevector.rect">
+                <port name="width" type="float" value="500.0"/>
+                <port name="height" type="float" value="250.0"/>
+            </node>
+            <node name="redbook" position="1.00,-1.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize2" position="0.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#637a96ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize4" position="0.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize5" position="3.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize6" position="3.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="0.00,2.00" prototype="list.combine"/>
+                <node name="rect2" position="0.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,0.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="220.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect4" position="0.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,-87.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="5.0"/>
+                </node>
+                <node name="rect5" position="3.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,-65.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="26.0"/>
+                </node>
+                <node name="rect6" position="3.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,90.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="5.0"/>
+                </node>
+                <conn input="colorize2.shape" output="rect2"/>
+                <conn input="colorize4.shape" output="rect4"/>
+                <conn input="combine2.list2" output="colorize4"/>
+                <conn input="combine2.list1" output="colorize2"/>
+                <conn input="colorize5.shape" output="rect5"/>
+                <conn input="combine2.list3" output="colorize5"/>
+                <conn input="colorize6.shape" output="rect6"/>
+                <conn input="combine2.list4" output="colorize6"/>
+            </node>
+            <node name="redbook2" position="7.00,-1.00" prototype="core.network" renderedChild="combine2">
+                <node name="colorize2" position="0.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#31406dff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize4" position="0.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize5" position="3.00,-2.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize6" position="3.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="colorize7" position="7.00,0.00" prototype="corevector.colorize">
+                    <port name="fill" type="color" value="#e1c298ff"/>
+                    <port name="stroke" type="color" value="#e3a96bff"/>
+                </node>
+                <node name="combine2" position="0.00,2.00" prototype="list.combine"/>
+                <node name="ellipse1" position="7.00,-1.00" prototype="corevector.ellipse">
+                    <port name="position" type="point" value="-212.00,-1.00"/>
+                    <port name="width" type="float" value="18.0"/>
+                    <port name="height" type="float" value="74.0"/>
+                </node>
+                <node name="rect2" position="0.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,0.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="220.0"/>
+                    <port name="roundness" type="point" value="2.00,2.00"/>
+                </node>
+                <node name="rect4" position="0.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,-87.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="5.0"/>
+                </node>
+                <node name="rect5" position="3.00,-3.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,-65.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="26.0"/>
+                </node>
+                <node name="rect6" position="3.00,-1.00" prototype="corevector.rect">
+                    <port name="position" type="point" value="-212.00,90.00"/>
+                    <port name="width" type="float" value="30.0"/>
+                    <port name="height" type="float" value="5.0"/>
+                </node>
+                <conn input="colorize2.shape" output="rect2"/>
+                <conn input="colorize4.shape" output="rect4"/>
+                <conn input="combine2.list2" output="colorize4"/>
+                <conn input="combine2.list1" output="colorize2"/>
+                <conn input="colorize5.shape" output="rect5"/>
+                <conn input="combine2.list3" output="colorize5"/>
+                <conn input="colorize6.shape" output="rect6"/>
+                <conn input="combine2.list4" output="colorize6"/>
+                <conn input="colorize7.shape" output="ellipse1"/>
+                <conn input="combine2.list5" output="colorize7"/>
+            </node>
+            <node name="rotate1" position="14.00,6.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="81.0"/>
+            </node>
+            <node name="rotate2" position="17.00,6.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="74.0"/>
+            </node>
+            <node name="translate1" position="1.00,0.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="133.00,0.00"/>
+            </node>
+            <node name="translate2" position="11.00,0.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="83.00,0.00"/>
+            </node>
+            <node name="translate3" position="7.00,0.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="344.00,-2.00"/>
+            </node>
+            <node name="translate6" position="14.00,7.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-220.00,-111.00"/>
+            </node>
+            <node name="translate7" position="17.00,7.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-178.00,-107.00"/>
+            </node>
+            <node name="translate8" position="14.00,0.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="205.00,0.00"/>
+            </node>
+            <node name="translate9" position="15.00,3.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-4.00,0.00"/>
+            </node>
+            <conn input="colorize1.shape" output="rect1"/>
+            <conn input="combine1.list1" output="colorize1"/>
+            <conn input="translate1.shape" output="redbook"/>
+            <conn input="translate3.shape" output="redbook2"/>
+            <conn input="rotate1.shape" output="book3"/>
+            <conn input="translate6.shape" output="rotate1"/>
+            <conn input="combine2.list3" output="translate6"/>
+            <conn input="translate2.shape" output="network1"/>
+            <conn input="translate8.shape" output="network2"/>
+            <conn input="combine1.list5" output="translate8"/>
+            <conn input="combine1.list4" output="translate2"/>
+            <conn input="combine1.list6" output="translate3"/>
+            <conn input="translate9.shape" output="network3"/>
+            <conn input="combine1.list7" output="translate9"/>
+            <conn input="combine1.list3" output="translate1"/>
+            <conn input="combine1.list2" output="combine2"/>
+            <conn input="rotate2.shape" output="book4"/>
+            <conn input="translate7.shape" output="rotate2"/>
+            <conn input="combine2.list4" output="translate7"/>
+        </node>
+        <node name="combine1" position="4.00,13.00" prototype="list.combine"/>
+        <node name="grid1" position="-2.00,7.00" prototype="corevector.grid">
+            <port name="columns" type="int" value="2"/>
+            <port name="rows" type="int" value="3"/>
+            <port name="width" type="float" value="500.0"/>
+            <port name="height" type="float" value="500.0"/>
+        </node>
+        <node name="group1" position="2.00,10.00" prototype="corevector.group"/>
+        <node name="group2" position="6.00,10.00" prototype="corevector.group"/>
+        <node name="group3" position="10.00,10.00" prototype="corevector.group"/>
+        <node name="translate1" position="2.00,17.00" prototype="corevector.translate"/>
+        <conn input="translate1.shape" output="combine1"/>
+        <conn input="group1.shapes" output="bookshelf1"/>
+        <conn input="combine1.list1" output="group1"/>
+        <conn input="group2.shapes" output="bookshelf2"/>
+        <conn input="combine1.list2" output="group2"/>
+        <conn input="translate1.translate" output="grid1"/>
+        <conn input="group3.shapes" output="bookshelf3"/>
+        <conn input="combine1.list3" output="group3"/>
+    </node>
+</ndbx>

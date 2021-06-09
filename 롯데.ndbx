@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ndbx formatVersion="21" type="file" uuid="21fa555e-24ce-4563-9032-54e6b52d6503">
+    <property name="canvasHeight" value="1000"/>
+    <property name="canvasWidth" value="1000"/>
+    <property name="canvasX" value="0"/>
+    <property name="canvasY" value="0"/>
+    <node name="root" prototype="core.network" renderedChild="combine2">
+        <node name="ball" position="6.00,0.00" prototype="core.network" renderedChild="group1">
+            <node name="colorize1" position="5.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize3" position="0.00,-1.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+            </node>
+            <node name="colorize4" position="10.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize5" position="14.00,2.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffff00"/>
+                <port name="strokeWidth" type="float" value="3.0"/>
+            </node>
+            <node name="colorize6" position="16.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize7" position="19.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize8" position="22.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="combine1" position="10.00,17.00" prototype="list.combine"/>
+            <node name="combine2" position="16.00,11.00" prototype="list.combine"/>
+            <node name="compound1" position="5.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="compound2" position="10.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="ellipse1" position="0.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse2" position="4.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse3" position="5.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="65.00,0.00"/>
+            </node>
+            <node name="ellipse4" position="10.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="-65.00,0.00"/>
+            </node>
+            <node name="ellipse5" position="9.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse6" position="14.00,1.00" prototype="corevector.ellipse"/>
+            <node name="group1" position="10.00,18.00" prototype="corevector.group"/>
+            <node name="line1" position="16.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line2" position="19.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line3" position="22.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="reflect1" position="16.00,12.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="180.0"/>
+            </node>
+            <node name="reflect2" position="16.00,14.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="90.0"/>
+            </node>
+            <node name="rotate1" position="16.00,7.00" prototype="corevector.rotate"/>
+            <node name="rotate2" position="19.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-20.0"/>
+            </node>
+            <node name="rotate3" position="22.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-40.0"/>
+            </node>
+            <node name="translate1" position="19.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-2.71,-21.03"/>
+            </node>
+            <node name="translate2" position="22.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-12.89,-39.34"/>
+            </node>
+            <conn input="colorize3.shape" output="ellipse1"/>
+            <conn input="combine1.list2" output="colorize3"/>
+            <conn input="compound1.shape1" output="ellipse2"/>
+            <conn input="compound1.shape2" output="ellipse3"/>
+            <conn input="colorize1.shape" output="compound1"/>
+            <conn input="combine1.list3" output="colorize1"/>
+            <conn input="compound2.shape1" output="ellipse5"/>
+            <conn input="compound2.shape2" output="ellipse4"/>
+            <conn input="colorize4.shape" output="compound2"/>
+            <conn input="combine1.list4" output="colorize4"/>
+            <conn input="colorize5.shape" output="ellipse6"/>
+            <conn input="combine1.list5" output="colorize5"/>
+            <conn input="colorize6.shape" output="line1"/>
+            <conn input="combine2.list1" output="rotate1"/>
+            <conn input="rotate1.shape" output="colorize6"/>
+            <conn input="colorize7.shape" output="line2"/>
+            <conn input="rotate2.shape" output="colorize7"/>
+            <conn input="translate1.shape" output="rotate2"/>
+            <conn input="combine2.list2" output="translate1"/>
+            <conn input="colorize8.shape" output="line3"/>
+            <conn input="rotate3.shape" output="colorize8"/>
+            <conn input="translate2.shape" output="rotate3"/>
+            <conn input="combine2.list3" output="translate2"/>
+            <conn input="reflect1.shape" output="combine2"/>
+            <conn input="reflect2.shape" output="reflect1"/>
+            <conn input="combine1.list6" output="reflect2"/>
+            <conn input="group1.shapes" output="combine1"/>
+        </node>
+        <node name="ball1" position="9.00,0.00" prototype="core.network" renderedChild="group1">
+            <node name="colorize1" position="5.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize3" position="0.00,-1.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+            </node>
+            <node name="colorize4" position="10.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize5" position="14.00,2.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffff00"/>
+                <port name="strokeWidth" type="float" value="3.0"/>
+            </node>
+            <node name="colorize6" position="16.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize7" position="19.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize8" position="22.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="combine1" position="10.00,17.00" prototype="list.combine"/>
+            <node name="combine2" position="16.00,11.00" prototype="list.combine"/>
+            <node name="compound1" position="5.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="compound2" position="10.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="ellipse1" position="0.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse2" position="4.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse3" position="5.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="65.00,0.00"/>
+            </node>
+            <node name="ellipse4" position="10.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="-65.00,0.00"/>
+            </node>
+            <node name="ellipse5" position="9.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse6" position="14.00,1.00" prototype="corevector.ellipse"/>
+            <node name="group1" position="10.00,18.00" prototype="corevector.group"/>
+            <node name="line1" position="16.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line2" position="19.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line3" position="22.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="reflect1" position="16.00,12.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="180.0"/>
+            </node>
+            <node name="reflect2" position="16.00,14.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="90.0"/>
+            </node>
+            <node name="rotate1" position="16.00,7.00" prototype="corevector.rotate"/>
+            <node name="rotate2" position="19.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-20.0"/>
+            </node>
+            <node name="rotate3" position="22.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-40.0"/>
+            </node>
+            <node name="translate1" position="19.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-2.71,-21.03"/>
+            </node>
+            <node name="translate2" position="22.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-12.89,-39.34"/>
+            </node>
+            <conn input="colorize3.shape" output="ellipse1"/>
+            <conn input="combine1.list2" output="colorize3"/>
+            <conn input="compound1.shape1" output="ellipse2"/>
+            <conn input="compound1.shape2" output="ellipse3"/>
+            <conn input="colorize1.shape" output="compound1"/>
+            <conn input="combine1.list3" output="colorize1"/>
+            <conn input="compound2.shape1" output="ellipse5"/>
+            <conn input="compound2.shape2" output="ellipse4"/>
+            <conn input="colorize4.shape" output="compound2"/>
+            <conn input="combine1.list4" output="colorize4"/>
+            <conn input="colorize5.shape" output="ellipse6"/>
+            <conn input="combine1.list5" output="colorize5"/>
+            <conn input="colorize6.shape" output="line1"/>
+            <conn input="combine2.list1" output="rotate1"/>
+            <conn input="rotate1.shape" output="colorize6"/>
+            <conn input="colorize7.shape" output="line2"/>
+            <conn input="rotate2.shape" output="colorize7"/>
+            <conn input="translate1.shape" output="rotate2"/>
+            <conn input="combine2.list2" output="translate1"/>
+            <conn input="colorize8.shape" output="line3"/>
+            <conn input="rotate3.shape" output="colorize8"/>
+            <conn input="translate2.shape" output="rotate3"/>
+            <conn input="combine2.list3" output="translate2"/>
+            <conn input="reflect1.shape" output="combine2"/>
+            <conn input="reflect2.shape" output="reflect1"/>
+            <conn input="combine1.list6" output="reflect2"/>
+            <conn input="group1.shapes" output="combine1"/>
+        </node>
+        <node name="ball2" position="12.00,0.00" prototype="core.network" renderedChild="group1">
+            <node name="colorize1" position="5.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize3" position="0.00,-1.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+            </node>
+            <node name="colorize4" position="10.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize5" position="14.00,2.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffff00"/>
+                <port name="strokeWidth" type="float" value="3.0"/>
+            </node>
+            <node name="colorize6" position="16.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize7" position="19.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize8" position="22.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="combine1" position="10.00,17.00" prototype="list.combine"/>
+            <node name="combine2" position="16.00,11.00" prototype="list.combine"/>
+            <node name="compound1" position="5.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="compound2" position="10.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="ellipse1" position="0.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse2" position="4.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse3" position="5.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="65.00,0.00"/>
+            </node>
+            <node name="ellipse4" position="10.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="-65.00,0.00"/>
+            </node>
+            <node name="ellipse5" position="9.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse6" position="14.00,1.00" prototype="corevector.ellipse"/>
+            <node name="group1" position="10.00,18.00" prototype="corevector.group"/>
+            <node name="line1" position="16.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line2" position="19.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line3" position="22.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="reflect1" position="16.00,12.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="180.0"/>
+            </node>
+            <node name="reflect2" position="16.00,14.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="90.0"/>
+            </node>
+            <node name="rotate1" position="16.00,7.00" prototype="corevector.rotate"/>
+            <node name="rotate2" position="19.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-20.0"/>
+            </node>
+            <node name="rotate3" position="22.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-40.0"/>
+            </node>
+            <node name="translate1" position="19.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-2.71,-21.03"/>
+            </node>
+            <node name="translate2" position="22.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-12.89,-39.34"/>
+            </node>
+            <conn input="colorize3.shape" output="ellipse1"/>
+            <conn input="combine1.list2" output="colorize3"/>
+            <conn input="compound1.shape1" output="ellipse2"/>
+            <conn input="compound1.shape2" output="ellipse3"/>
+            <conn input="colorize1.shape" output="compound1"/>
+            <conn input="combine1.list3" output="colorize1"/>
+            <conn input="compound2.shape1" output="ellipse5"/>
+            <conn input="compound2.shape2" output="ellipse4"/>
+            <conn input="colorize4.shape" output="compound2"/>
+            <conn input="combine1.list4" output="colorize4"/>
+            <conn input="colorize5.shape" output="ellipse6"/>
+            <conn input="combine1.list5" output="colorize5"/>
+            <conn input="colorize6.shape" output="line1"/>
+            <conn input="combine2.list1" output="rotate1"/>
+            <conn input="rotate1.shape" output="colorize6"/>
+            <conn input="colorize7.shape" output="line2"/>
+            <conn input="rotate2.shape" output="colorize7"/>
+            <conn input="translate1.shape" output="rotate2"/>
+            <conn input="combine2.list2" output="translate1"/>
+            <conn input="colorize8.shape" output="line3"/>
+            <conn input="rotate3.shape" output="colorize8"/>
+            <conn input="translate2.shape" output="rotate3"/>
+            <conn input="combine2.list3" output="translate2"/>
+            <conn input="reflect1.shape" output="combine2"/>
+            <conn input="reflect2.shape" output="reflect1"/>
+            <conn input="combine1.list6" output="reflect2"/>
+            <conn input="group1.shapes" output="combine1"/>
+        </node>
+        <node name="ball3" position="15.00,0.00" prototype="core.network" renderedChild="group1">
+            <node name="colorize1" position="5.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize3" position="0.00,-1.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+            </node>
+            <node name="colorize4" position="10.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize5" position="14.00,2.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffff00"/>
+                <port name="strokeWidth" type="float" value="3.0"/>
+            </node>
+            <node name="colorize6" position="16.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize7" position="19.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize8" position="22.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="combine1" position="10.00,17.00" prototype="list.combine"/>
+            <node name="combine2" position="16.00,11.00" prototype="list.combine"/>
+            <node name="compound1" position="5.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="compound2" position="10.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="ellipse1" position="0.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse2" position="4.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse3" position="5.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="65.00,0.00"/>
+            </node>
+            <node name="ellipse4" position="10.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="-65.00,0.00"/>
+            </node>
+            <node name="ellipse5" position="9.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse6" position="14.00,1.00" prototype="corevector.ellipse"/>
+            <node name="group1" position="10.00,18.00" prototype="corevector.group"/>
+            <node name="line1" position="16.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line2" position="19.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line3" position="22.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="reflect1" position="16.00,12.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="180.0"/>
+            </node>
+            <node name="reflect2" position="16.00,14.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="90.0"/>
+            </node>
+            <node name="rotate1" position="16.00,7.00" prototype="corevector.rotate"/>
+            <node name="rotate2" position="19.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-20.0"/>
+            </node>
+            <node name="rotate3" position="22.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-40.0"/>
+            </node>
+            <node name="translate1" position="19.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-2.71,-21.03"/>
+            </node>
+            <node name="translate2" position="22.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-12.89,-39.34"/>
+            </node>
+            <conn input="colorize3.shape" output="ellipse1"/>
+            <conn input="combine1.list2" output="colorize3"/>
+            <conn input="compound1.shape1" output="ellipse2"/>
+            <conn input="compound1.shape2" output="ellipse3"/>
+            <conn input="colorize1.shape" output="compound1"/>
+            <conn input="combine1.list3" output="colorize1"/>
+            <conn input="compound2.shape1" output="ellipse5"/>
+            <conn input="compound2.shape2" output="ellipse4"/>
+            <conn input="colorize4.shape" output="compound2"/>
+            <conn input="combine1.list4" output="colorize4"/>
+            <conn input="colorize5.shape" output="ellipse6"/>
+            <conn input="combine1.list5" output="colorize5"/>
+            <conn input="colorize6.shape" output="line1"/>
+            <conn input="combine2.list1" output="rotate1"/>
+            <conn input="rotate1.shape" output="colorize6"/>
+            <conn input="colorize7.shape" output="line2"/>
+            <conn input="rotate2.shape" output="colorize7"/>
+            <conn input="translate1.shape" output="rotate2"/>
+            <conn input="combine2.list2" output="translate1"/>
+            <conn input="colorize8.shape" output="line3"/>
+            <conn input="rotate3.shape" output="colorize8"/>
+            <conn input="translate2.shape" output="rotate3"/>
+            <conn input="combine2.list3" output="translate2"/>
+            <conn input="reflect1.shape" output="combine2"/>
+            <conn input="reflect2.shape" output="reflect1"/>
+            <conn input="combine1.list6" output="reflect2"/>
+            <conn input="group1.shapes" output="combine1"/>
+        </node>
+        <node name="ball4" position="18.00,0.00" prototype="core.network" renderedChild="group1">
+            <node name="colorize1" position="5.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize3" position="0.00,-1.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+            </node>
+            <node name="colorize4" position="10.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize5" position="14.00,2.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffff00"/>
+                <port name="strokeWidth" type="float" value="3.0"/>
+            </node>
+            <node name="colorize6" position="16.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize7" position="19.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize8" position="22.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="combine1" position="10.00,17.00" prototype="list.combine"/>
+            <node name="combine2" position="16.00,11.00" prototype="list.combine"/>
+            <node name="compound1" position="5.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="compound2" position="10.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="ellipse1" position="0.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse2" position="4.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse3" position="5.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="65.00,0.00"/>
+            </node>
+            <node name="ellipse4" position="10.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="-65.00,0.00"/>
+            </node>
+            <node name="ellipse5" position="9.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse6" position="14.00,1.00" prototype="corevector.ellipse"/>
+            <node name="group1" position="10.00,18.00" prototype="corevector.group"/>
+            <node name="line1" position="16.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line2" position="19.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line3" position="22.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="reflect1" position="16.00,12.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="180.0"/>
+            </node>
+            <node name="reflect2" position="16.00,14.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="90.0"/>
+            </node>
+            <node name="rotate1" position="16.00,7.00" prototype="corevector.rotate"/>
+            <node name="rotate2" position="19.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-20.0"/>
+            </node>
+            <node name="rotate3" position="22.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-40.0"/>
+            </node>
+            <node name="translate1" position="19.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-2.71,-21.03"/>
+            </node>
+            <node name="translate2" position="22.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-12.89,-39.34"/>
+            </node>
+            <conn input="colorize3.shape" output="ellipse1"/>
+            <conn input="combine1.list2" output="colorize3"/>
+            <conn input="compound1.shape1" output="ellipse2"/>
+            <conn input="compound1.shape2" output="ellipse3"/>
+            <conn input="colorize1.shape" output="compound1"/>
+            <conn input="combine1.list3" output="colorize1"/>
+            <conn input="compound2.shape1" output="ellipse5"/>
+            <conn input="compound2.shape2" output="ellipse4"/>
+            <conn input="colorize4.shape" output="compound2"/>
+            <conn input="combine1.list4" output="colorize4"/>
+            <conn input="colorize5.shape" output="ellipse6"/>
+            <conn input="combine1.list5" output="colorize5"/>
+            <conn input="colorize6.shape" output="line1"/>
+            <conn input="combine2.list1" output="rotate1"/>
+            <conn input="rotate1.shape" output="colorize6"/>
+            <conn input="colorize7.shape" output="line2"/>
+            <conn input="rotate2.shape" output="colorize7"/>
+            <conn input="translate1.shape" output="rotate2"/>
+            <conn input="combine2.list2" output="translate1"/>
+            <conn input="colorize8.shape" output="line3"/>
+            <conn input="rotate3.shape" output="colorize8"/>
+            <conn input="translate2.shape" output="rotate3"/>
+            <conn input="combine2.list3" output="translate2"/>
+            <conn input="reflect1.shape" output="combine2"/>
+            <conn input="reflect2.shape" output="reflect1"/>
+            <conn input="combine1.list6" output="reflect2"/>
+            <conn input="group1.shapes" output="combine1"/>
+        </node>
+        <node name="ball5" position="21.00,0.00" prototype="core.network" renderedChild="group1">
+            <node name="colorize1" position="5.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize3" position="0.00,-1.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+            </node>
+            <node name="colorize4" position="10.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize5" position="14.00,2.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffff00"/>
+                <port name="strokeWidth" type="float" value="3.0"/>
+            </node>
+            <node name="colorize6" position="16.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize7" position="19.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize8" position="22.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="combine1" position="10.00,17.00" prototype="list.combine"/>
+            <node name="combine2" position="16.00,11.00" prototype="list.combine"/>
+            <node name="compound1" position="5.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="compound2" position="10.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="ellipse1" position="0.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse2" position="4.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse3" position="5.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="65.00,0.00"/>
+            </node>
+            <node name="ellipse4" position="10.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="-65.00,0.00"/>
+            </node>
+            <node name="ellipse5" position="9.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse6" position="14.00,1.00" prototype="corevector.ellipse"/>
+            <node name="group1" position="10.00,18.00" prototype="corevector.group"/>
+            <node name="line1" position="16.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line2" position="19.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line3" position="22.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="reflect1" position="16.00,12.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="180.0"/>
+            </node>
+            <node name="reflect2" position="16.00,14.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="90.0"/>
+            </node>
+            <node name="rotate1" position="16.00,7.00" prototype="corevector.rotate"/>
+            <node name="rotate2" position="19.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-20.0"/>
+            </node>
+            <node name="rotate3" position="22.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-40.0"/>
+            </node>
+            <node name="translate1" position="19.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-2.71,-21.03"/>
+            </node>
+            <node name="translate2" position="22.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-12.89,-39.34"/>
+            </node>
+            <conn input="colorize3.shape" output="ellipse1"/>
+            <conn input="combine1.list2" output="colorize3"/>
+            <conn input="compound1.shape1" output="ellipse2"/>
+            <conn input="compound1.shape2" output="ellipse3"/>
+            <conn input="colorize1.shape" output="compound1"/>
+            <conn input="combine1.list3" output="colorize1"/>
+            <conn input="compound2.shape1" output="ellipse5"/>
+            <conn input="compound2.shape2" output="ellipse4"/>
+            <conn input="colorize4.shape" output="compound2"/>
+            <conn input="combine1.list4" output="colorize4"/>
+            <conn input="colorize5.shape" output="ellipse6"/>
+            <conn input="combine1.list5" output="colorize5"/>
+            <conn input="colorize6.shape" output="line1"/>
+            <conn input="combine2.list1" output="rotate1"/>
+            <conn input="rotate1.shape" output="colorize6"/>
+            <conn input="colorize7.shape" output="line2"/>
+            <conn input="rotate2.shape" output="colorize7"/>
+            <conn input="translate1.shape" output="rotate2"/>
+            <conn input="combine2.list2" output="translate1"/>
+            <conn input="colorize8.shape" output="line3"/>
+            <conn input="rotate3.shape" output="colorize8"/>
+            <conn input="translate2.shape" output="rotate3"/>
+            <conn input="combine2.list3" output="translate2"/>
+            <conn input="reflect1.shape" output="combine2"/>
+            <conn input="reflect2.shape" output="reflect1"/>
+            <conn input="combine1.list6" output="reflect2"/>
+            <conn input="group1.shapes" output="combine1"/>
+        </node>
+        <node name="ball6" position="-1.00,8.00" prototype="core.network" renderedChild="group1">
+            <node name="colorize1" position="5.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize3" position="0.00,-1.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+            </node>
+            <node name="colorize4" position="10.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize5" position="14.00,2.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffff00"/>
+                <port name="strokeWidth" type="float" value="3.0"/>
+            </node>
+            <node name="colorize6" position="16.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize7" position="19.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize8" position="22.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="combine1" position="10.00,17.00" prototype="list.combine"/>
+            <node name="combine2" position="16.00,11.00" prototype="list.combine"/>
+            <node name="compound1" position="5.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="compound2" position="10.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="ellipse1" position="0.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse2" position="4.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse3" position="5.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="65.00,0.00"/>
+            </node>
+            <node name="ellipse4" position="10.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="-65.00,0.00"/>
+            </node>
+            <node name="ellipse5" position="9.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse6" position="14.00,1.00" prototype="corevector.ellipse"/>
+            <node name="group1" position="10.00,18.00" prototype="corevector.group"/>
+            <node name="line1" position="16.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line2" position="19.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line3" position="22.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="reflect1" position="16.00,12.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="180.0"/>
+            </node>
+            <node name="reflect2" position="16.00,14.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="90.0"/>
+            </node>
+            <node name="rotate1" position="16.00,7.00" prototype="corevector.rotate"/>
+            <node name="rotate2" position="19.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-20.0"/>
+            </node>
+            <node name="rotate3" position="22.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-40.0"/>
+            </node>
+            <node name="translate1" position="19.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-2.71,-21.03"/>
+            </node>
+            <node name="translate2" position="22.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-12.89,-39.34"/>
+            </node>
+            <conn input="colorize3.shape" output="ellipse1"/>
+            <conn input="combine1.list2" output="colorize3"/>
+            <conn input="compound1.shape1" output="ellipse2"/>
+            <conn input="compound1.shape2" output="ellipse3"/>
+            <conn input="colorize1.shape" output="compound1"/>
+            <conn input="combine1.list3" output="colorize1"/>
+            <conn input="compound2.shape1" output="ellipse5"/>
+            <conn input="compound2.shape2" output="ellipse4"/>
+            <conn input="colorize4.shape" output="compound2"/>
+            <conn input="combine1.list4" output="colorize4"/>
+            <conn input="colorize5.shape" output="ellipse6"/>
+            <conn input="combine1.list5" output="colorize5"/>
+            <conn input="colorize6.shape" output="line1"/>
+            <conn input="combine2.list1" output="rotate1"/>
+            <conn input="rotate1.shape" output="colorize6"/>
+            <conn input="colorize7.shape" output="line2"/>
+            <conn input="rotate2.shape" output="colorize7"/>
+            <conn input="translate1.shape" output="rotate2"/>
+            <conn input="combine2.list2" output="translate1"/>
+            <conn input="colorize8.shape" output="line3"/>
+            <conn input="rotate3.shape" output="colorize8"/>
+            <conn input="translate2.shape" output="rotate3"/>
+            <conn input="combine2.list3" output="translate2"/>
+            <conn input="reflect1.shape" output="combine2"/>
+            <conn input="reflect2.shape" output="reflect1"/>
+            <conn input="combine1.list6" output="reflect2"/>
+            <conn input="group1.shapes" output="combine1"/>
+        </node>
+        <node name="ball7" position="2.00,0.00" prototype="core.network" renderedChild="group1">
+            <node name="colorize1" position="5.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize3" position="0.00,-1.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+            </node>
+            <node name="colorize4" position="10.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize5" position="14.00,2.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffff00"/>
+                <port name="strokeWidth" type="float" value="3.0"/>
+            </node>
+            <node name="colorize6" position="16.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize7" position="19.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize8" position="22.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="combine1" position="10.00,17.00" prototype="list.combine"/>
+            <node name="combine2" position="16.00,11.00" prototype="list.combine"/>
+            <node name="compound1" position="5.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="compound2" position="10.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="ellipse1" position="0.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse2" position="4.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse3" position="5.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="65.00,0.00"/>
+            </node>
+            <node name="ellipse4" position="10.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="-65.00,0.00"/>
+            </node>
+            <node name="ellipse5" position="9.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse6" position="14.00,1.00" prototype="corevector.ellipse"/>
+            <node name="group1" position="10.00,18.00" prototype="corevector.group"/>
+            <node name="line1" position="16.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line2" position="19.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line3" position="22.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="reflect1" position="16.00,12.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="180.0"/>
+            </node>
+            <node name="reflect2" position="16.00,14.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="90.0"/>
+            </node>
+            <node name="rotate1" position="16.00,7.00" prototype="corevector.rotate"/>
+            <node name="rotate2" position="19.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-20.0"/>
+            </node>
+            <node name="rotate3" position="22.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-40.0"/>
+            </node>
+            <node name="translate1" position="19.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-2.71,-21.03"/>
+            </node>
+            <node name="translate2" position="22.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-12.89,-39.34"/>
+            </node>
+            <conn input="colorize3.shape" output="ellipse1"/>
+            <conn input="combine1.list2" output="colorize3"/>
+            <conn input="compound1.shape1" output="ellipse2"/>
+            <conn input="compound1.shape2" output="ellipse3"/>
+            <conn input="colorize1.shape" output="compound1"/>
+            <conn input="combine1.list3" output="colorize1"/>
+            <conn input="compound2.shape1" output="ellipse5"/>
+            <conn input="compound2.shape2" output="ellipse4"/>
+            <conn input="colorize4.shape" output="compound2"/>
+            <conn input="combine1.list4" output="colorize4"/>
+            <conn input="colorize5.shape" output="ellipse6"/>
+            <conn input="combine1.list5" output="colorize5"/>
+            <conn input="colorize6.shape" output="line1"/>
+            <conn input="combine2.list1" output="rotate1"/>
+            <conn input="rotate1.shape" output="colorize6"/>
+            <conn input="colorize7.shape" output="line2"/>
+            <conn input="rotate2.shape" output="colorize7"/>
+            <conn input="translate1.shape" output="rotate2"/>
+            <conn input="combine2.list2" output="translate1"/>
+            <conn input="colorize8.shape" output="line3"/>
+            <conn input="rotate3.shape" output="colorize8"/>
+            <conn input="translate2.shape" output="rotate3"/>
+            <conn input="combine2.list3" output="translate2"/>
+            <conn input="reflect1.shape" output="combine2"/>
+            <conn input="reflect2.shape" output="reflect1"/>
+            <conn input="combine1.list6" output="reflect2"/>
+            <conn input="group1.shapes" output="combine1"/>
+        </node>
+        <node name="ball8" position="2.00,8.00" prototype="core.network" renderedChild="group1">
+            <node name="colorize1" position="5.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize3" position="0.00,-1.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+            </node>
+            <node name="colorize4" position="10.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize5" position="14.00,2.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffff00"/>
+                <port name="strokeWidth" type="float" value="3.0"/>
+            </node>
+            <node name="colorize6" position="16.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize7" position="19.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize8" position="22.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="combine1" position="10.00,17.00" prototype="list.combine"/>
+            <node name="combine2" position="16.00,11.00" prototype="list.combine"/>
+            <node name="compound1" position="5.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="compound2" position="10.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="ellipse1" position="0.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse2" position="4.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse3" position="5.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="65.00,0.00"/>
+            </node>
+            <node name="ellipse4" position="10.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="-65.00,0.00"/>
+            </node>
+            <node name="ellipse5" position="9.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse6" position="14.00,1.00" prototype="corevector.ellipse"/>
+            <node name="group1" position="10.00,18.00" prototype="corevector.group"/>
+            <node name="line1" position="16.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line2" position="19.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line3" position="22.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="reflect1" position="16.00,12.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="180.0"/>
+            </node>
+            <node name="reflect2" position="16.00,14.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="90.0"/>
+            </node>
+            <node name="rotate1" position="16.00,7.00" prototype="corevector.rotate"/>
+            <node name="rotate2" position="19.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-20.0"/>
+            </node>
+            <node name="rotate3" position="22.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-40.0"/>
+            </node>
+            <node name="translate1" position="19.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-2.71,-21.03"/>
+            </node>
+            <node name="translate2" position="22.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-12.89,-39.34"/>
+            </node>
+            <conn input="colorize3.shape" output="ellipse1"/>
+            <conn input="combine1.list2" output="colorize3"/>
+            <conn input="compound1.shape1" output="ellipse2"/>
+            <conn input="compound1.shape2" output="ellipse3"/>
+            <conn input="colorize1.shape" output="compound1"/>
+            <conn input="combine1.list3" output="colorize1"/>
+            <conn input="compound2.shape1" output="ellipse5"/>
+            <conn input="compound2.shape2" output="ellipse4"/>
+            <conn input="colorize4.shape" output="compound2"/>
+            <conn input="combine1.list4" output="colorize4"/>
+            <conn input="colorize5.shape" output="ellipse6"/>
+            <conn input="combine1.list5" output="colorize5"/>
+            <conn input="colorize6.shape" output="line1"/>
+            <conn input="combine2.list1" output="rotate1"/>
+            <conn input="rotate1.shape" output="colorize6"/>
+            <conn input="colorize7.shape" output="line2"/>
+            <conn input="rotate2.shape" output="colorize7"/>
+            <conn input="translate1.shape" output="rotate2"/>
+            <conn input="combine2.list2" output="translate1"/>
+            <conn input="colorize8.shape" output="line3"/>
+            <conn input="rotate3.shape" output="colorize8"/>
+            <conn input="translate2.shape" output="rotate3"/>
+            <conn input="combine2.list3" output="translate2"/>
+            <conn input="reflect1.shape" output="combine2"/>
+            <conn input="reflect2.shape" output="reflect1"/>
+            <conn input="combine1.list6" output="reflect2"/>
+            <conn input="group1.shapes" output="combine1"/>
+        </node>
+        <node name="ball9" position="11.00,11.00" prototype="core.network" renderedChild="group1">
+            <node name="colorize1" position="5.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize3" position="0.00,-1.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+            </node>
+            <node name="colorize4" position="10.00,3.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize5" position="14.00,2.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffff00"/>
+                <port name="strokeWidth" type="float" value="3.0"/>
+            </node>
+            <node name="colorize6" position="16.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize7" position="19.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="colorize8" position="22.00,6.00" prototype="corevector.colorize">
+                <port name="fill" type="color" value="#ffffffff"/>
+                <port name="stroke" type="color" value="#dc0232ff"/>
+                <port name="strokeWidth" type="float" value="2.0"/>
+            </node>
+            <node name="combine1" position="10.00,17.00" prototype="list.combine"/>
+            <node name="combine2" position="16.00,11.00" prototype="list.combine"/>
+            <node name="compound1" position="5.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="compound2" position="10.00,2.00" prototype="corevector.compound">
+                <port name="function" type="string" value="intersected"/>
+            </node>
+            <node name="ellipse1" position="0.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse2" position="4.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse3" position="5.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="65.00,0.00"/>
+            </node>
+            <node name="ellipse4" position="10.00,0.00" prototype="corevector.ellipse">
+                <port name="position" type="point" value="-65.00,0.00"/>
+            </node>
+            <node name="ellipse5" position="9.00,-2.00" prototype="corevector.ellipse"/>
+            <node name="ellipse6" position="14.00,1.00" prototype="corevector.ellipse"/>
+            <node name="group1" position="10.00,18.00" prototype="corevector.group"/>
+            <node name="line1" position="16.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line2" position="19.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="line3" position="22.00,5.00" prototype="corevector.line">
+                <port name="point1" type="point" value="-11.00,0.00"/>
+                <port name="point2" type="point" value="-18.00,0.00"/>
+            </node>
+            <node name="reflect1" position="16.00,12.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="180.0"/>
+            </node>
+            <node name="reflect2" position="16.00,14.00" prototype="corevector.reflect">
+                <port name="angle" type="float" value="90.0"/>
+            </node>
+            <node name="rotate1" position="16.00,7.00" prototype="corevector.rotate"/>
+            <node name="rotate2" position="19.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-20.0"/>
+            </node>
+            <node name="rotate3" position="22.00,7.00" prototype="corevector.rotate">
+                <port name="angle" type="float" value="-40.0"/>
+            </node>
+            <node name="translate1" position="19.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-2.71,-21.03"/>
+            </node>
+            <node name="translate2" position="22.00,8.00" prototype="corevector.translate">
+                <port name="translate" type="point" value="-12.89,-39.34"/>
+            </node>
+            <conn input="colorize3.shape" output="ellipse1"/>
+            <conn input="combine1.list2" output="colorize3"/>
+            <conn input="compound1.shape1" output="ellipse2"/>
+            <conn input="compound1.shape2" output="ellipse3"/>
+            <conn input="colorize1.shape" output="compound1"/>
+            <conn input="combine1.list3" output="colorize1"/>
+            <conn input="compound2.shape1" output="ellipse5"/>
+            <conn input="compound2.shape2" output="ellipse4"/>
+            <conn input="colorize4.shape" output="compound2"/>
+            <conn input="combine1.list4" output="colorize4"/>
+            <conn input="colorize5.shape" output="ellipse6"/>
+            <conn input="combine1.list5" output="colorize5"/>
+            <conn input="colorize6.shape" output="line1"/>
+            <conn input="combine2.list1" output="rotate1"/>
+            <conn input="rotate1.shape" output="colorize6"/>
+            <conn input="colorize7.shape" output="line2"/>
+            <conn input="rotate2.shape" output="colorize7"/>
+            <conn input="translate1.shape" output="rotate2"/>
+            <conn input="combine2.list2" output="translate1"/>
+            <conn input="colorize8.shape" output="line3"/>
+            <conn input="rotate3.shape" output="colorize8"/>
+            <conn input="translate2.shape" output="rotate3"/>
+            <conn input="combine2.list3" output="translate2"/>
+            <conn input="reflect1.shape" output="combine2"/>
+            <conn input="reflect2.shape" output="reflect1"/>
+            <conn input="combine1.list6" output="reflect2"/>
+            <conn input="group1.shapes" output="combine1"/>
+        </node>
+        <node name="colorize2" position="-3.00,14.00" prototype="corevector.colorize">
+            <port name="fill" type="color" value="#002955ff"/>
+        </node>
+        <node name="combine1" position="6.00,10.00" prototype="list.combine"/>
+        <node name="combine2" position="4.00,16.00" prototype="list.combine"/>
+        <node name="rect1" position="-3.00,13.00" prototype="corevector.rect">
+            <port name="width" type="float" value="300.0"/>
+            <port name="height" type="float" value="300.0"/>
+        </node>
+        <node name="rotate1" position="9.00,2.00" prototype="corevector.rotate">
+            <port name="angle" type="float" value="101.0"/>
+            <port name="origin" type="point" value="86.00,0.00"/>
+        </node>
+        <node name="rotate2" position="12.00,2.00" prototype="corevector.rotate">
+            <port name="angle" type="float" value="153.0"/>
+            <port name="origin" type="point" value="86.00,0.00"/>
+        </node>
+        <node name="rotate3" position="15.00,2.00" prototype="corevector.rotate">
+            <port name="angle" type="float" value="23.0"/>
+            <port name="origin" type="point" value="86.00,0.00"/>
+        </node>
+        <node name="rotate4" position="18.00,2.00" prototype="corevector.rotate">
+            <port name="angle" type="float" value="23.0"/>
+            <port name="origin" type="point" value="86.00,0.00"/>
+        </node>
+        <node name="rotate5" position="21.00,2.00" prototype="corevector.rotate">
+            <port name="angle" type="float" value="-111.0"/>
+            <port name="origin" type="point" value="86.00,0.00"/>
+        </node>
+        <node name="rotate6" position="-1.00,9.00" prototype="corevector.rotate">
+            <port name="angle" type="float" value="-111.0"/>
+            <port name="origin" type="point" value="86.00,0.00"/>
+        </node>
+        <node name="rotate7" position="2.00,2.00" prototype="corevector.rotate">
+            <port name="angle" type="float" value="153.0"/>
+            <port name="origin" type="point" value="86.00,0.00"/>
+        </node>
+        <node name="rotate8" position="2.00,9.00" prototype="corevector.rotate">
+            <port name="angle" type="float" value="-111.0"/>
+            <port name="origin" type="point" value="86.00,0.00"/>
+        </node>
+        <node name="rotate9" position="11.00,12.00" prototype="corevector.rotate">
+            <port name="angle" type="float" value="-111.0"/>
+            <port name="origin" type="point" value="86.00,0.00"/>
+        </node>
+        <node name="translate1" position="9.00,3.00" prototype="corevector.translate">
+            <port name="translate" type="point" value="-8.89,119.86"/>
+        </node>
+        <node name="translate2" position="12.00,3.00" prototype="corevector.translate">
+            <port name="translate" type="point" value="-255.13,128.60"/>
+        </node>
+        <node name="translate3" position="15.00,3.00" prototype="corevector.translate">
+            <port name="translate" type="point" value="-96.65,35.35"/>
+        </node>
+        <node name="translate4" position="18.00,3.00" prototype="corevector.translate">
+            <port name="translate" type="point" value="89.85,-34.67"/>
+        </node>
+        <node name="translate5" position="21.00,3.00" prototype="corevector.translate">
+            <port name="translate" type="point" value="-75.87,11.86"/>
+        </node>
+        <node name="translate6" position="-1.00,10.00" prototype="corevector.translate">
+            <port name="translate" type="point" value="-74.40,-131.65"/>
+        </node>
+        <node name="translate7" position="2.00,3.00" prototype="corevector.translate">
+            <port name="translate" type="point" value="-196.89,121.86"/>
+        </node>
+        <node name="translate8" position="2.00,10.00" prototype="corevector.translate">
+            <port name="translate" type="point" value="-185.89,-157.14"/>
+        </node>
+        <node name="translate9" position="11.00,13.00" prototype="corevector.translate">
+            <port name="translate" type="point" value="-118.55,-170.86"/>
+        </node>
+        <conn input="colorize2.shape" output="rect1"/>
+        <conn input="rotate1.shape" output="ball1"/>
+        <conn input="translate1.shape" output="rotate1"/>
+        <conn input="rotate2.shape" output="ball2"/>
+        <conn input="translate2.shape" output="rotate2"/>
+        <conn input="rotate3.shape" output="ball3"/>
+        <conn input="translate3.shape" output="rotate3"/>
+        <conn input="rotate4.shape" output="ball4"/>
+        <conn input="translate4.shape" output="rotate4"/>
+        <conn input="rotate5.shape" output="ball5"/>
+        <conn input="translate5.shape" output="rotate5"/>
+        <conn input="combine1.list2" output="translate1"/>
+        <conn input="combine1.list3" output="translate2"/>
+        <conn input="combine1.list4" output="translate3"/>
+        <conn input="combine1.list5" output="translate4"/>
+        <conn input="combine1.list7" output="ball"/>
+        <conn input="combine1.list6" output="translate5"/>
+        <conn input="combine2.list7" output="combine1"/>
+        <conn input="rotate6.shape" output="ball6"/>
+        <conn input="translate6.shape" output="rotate6"/>
+        <conn input="combine2.list6" output="translate6"/>
+        <conn input="combine2.list1" output="colorize2"/>
+        <conn input="rotate7.shape" output="ball7"/>
+        <conn input="translate7.shape" output="rotate7"/>
+        <conn input="combine1.list1" output="translate7"/>
+        <conn input="rotate8.shape" output="ball8"/>
+        <conn input="translate8.shape" output="rotate8"/>
+        <conn input="rotate9.shape" output="ball9"/>
+        <conn input="translate9.shape" output="rotate9"/>
+        <conn input="combine2.list3" output="translate9"/>
+        <conn input="combine2.list4" output="translate8"/>
+    </node>
+</ndbx>

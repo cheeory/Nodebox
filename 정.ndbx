@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ndbx formatVersion="21" type="file" uuid="7443ddb0-d706-4c0d-a025-27c527936aa8">
+    <property name="canvasHeight" value="1000"/>
+    <property name="canvasWidth" value="1000"/>
+    <property name="canvasX" value="0"/>
+    <property name="canvasY" value="0"/>
+    <node name="root" prototype="core.network" renderedChild="translate3">
+        <node name="colorize1" position="5.00,8.00" prototype="corevector.colorize">
+            <port name="fill" type="color" value="#ffdbdbff"/>
+            <port name="strokeWidth" type="float" value="1.0"/>
+        </node>
+        <node name="coordinates1" position="11.00,7.00" prototype="math.coordinates">
+            <port name="distance" type="float" value="196.0"/>
+        </node>
+        <node name="copy1" position="6.00,15.00" prototype="corevector.copy">
+            <port name="copies" type="int" value="9"/>
+            <port name="rotate" type="float" value="40.0"/>
+        </node>
+        <node name="ellipse1" position="5.00,5.00" prototype="corevector.ellipse">
+            <port name="position" type="point" value="0.00,343.00"/>
+            <port name="width" type="float" value="8.0"/>
+            <port name="height" type="float" value="74.0"/>
+        </node>
+        <node name="group1" position="6.00,16.00" prototype="corevector.group"/>
+        <node name="rotate1" position="5.00,6.00" prototype="corevector.rotate">
+            <port name="angle" type="float" value="18.0"/>
+        </node>
+        <node name="sample1" position="11.00,5.00" prototype="math.sample">
+            <port name="amount" type="int" value="15"/>
+            <port name="end" type="float" value="360.0"/>
+        </node>
+        <node name="translate1" position="6.00,12.00" prototype="corevector.translate"/>
+        <node name="translate2" position="6.00,13.00" prototype="corevector.translate">
+            <port name="translate" type="point" value="227.00,-260.00"/>
+        </node>
+        <node name="translate3" position="6.00,19.00" prototype="corevector.translate"/>
+        <conn input="translate1.shape" output="colorize1"/>
+        <conn input="translate1.translate" output="coordinates1"/>
+        <conn input="coordinates1.angle" output="sample1"/>
+        <conn input="rotate1.shape" output="ellipse1"/>
+        <conn input="colorize1.shape" output="rotate1"/>
+        <conn input="translate2.shape" output="translate1"/>
+        <conn input="copy1.shape" output="translate2"/>
+        <conn input="group1.shapes" output="copy1"/>
+        <conn input="translate3.shape" output="group1"/>
+    </node>
+</ndbx>
